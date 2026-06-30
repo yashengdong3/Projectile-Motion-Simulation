@@ -22,4 +22,4 @@ The trajectories of projectiles launched at different angles are compared and vi
 
 ## Preview
 
-![Projectile Motion](projectile_motion.png)
+![Projectile Motion](projectile_motion.png, kinematics_ellipse.png)
