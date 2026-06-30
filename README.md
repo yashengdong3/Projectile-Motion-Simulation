@@ -15,12 +15,12 @@ This repository focuses on scientific computing, physics modeling, and algorithm
 * **Projectile Motion Simulation**
   * Compare trajectories across different launch angles ($15^\circ$, $30^\circ$, $45^\circ$, $60^\circ$, $75^\circ$).
   * Automatic marking of precise launch and landing points.
-  * *Governing Equation:* $$y = x\tan(\theta) - \frac{g x^2}{2 v^2 \cos^2(\theta)}$$
+  * *Governing Equation:* $$y = x\tan(\theta) - \frac{g x^2}/{2 v^2 \cos^2(\theta)}$$
 
 * **Kinematics Analysis on Orbits (Orbital Mechanics)**
   * Simulate particle physics on an elliptical orbit (e.g., Earth-Sun gravitational system).
   * Real-time vector visualization of Velocity ($\mathbf{v}$) and Acceleration ($\mathbf{a}$) using calculus derivations.
-  * *Parametric Equations:* $$x = a\cos(\omega t), \quad y = b\sin(\omega t)$$
+  * *Parametric Equations:* $$x = cos(\omega t), \quad y = sin(\omega t)$$
 
 * **Numerical Analysis & Algorithms**
   * **Numerical Integration:** Implemented Riemann Sum (incorporating both **Midpoint Rule** and **Trapezoidal Rule**) to approximate definite integrals for non-linear functions ($f(x) = x\sin^2(x)$).
