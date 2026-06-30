@@ -1,56 +1,98 @@
 # Physics Motion Simulation & Numerical Computing
 
-A Python-based simulation and numerical computing tool designed to model, solve, and visualize classical physics kinematics and mathematical algorithms.
+This repository contains several Python projects developed while learning scientific computing and introductory physics. The projects focus on numerical methods, physics simulation, and data visualization using Python.
 
 ---
 
-## 📌 Overview
+## Overview
 
-This repository focuses on scientific computing, physics modeling, and algorithm implementation using Python. It simulates real-world physical behaviors, provides numerical approximations for calculus, and delivers clean, academic-grade visualizations to analyze complex dynamic systems.
-
----
-
-## ✨ Features
-
-* **Projectile Motion Simulation**
-  * Compare trajectories across different launch angles ($15^\circ$, $30^\circ$, $45^\circ$, $60^\circ$, $75^\circ$).
-  * Automatic marking of precise launch and landing points.
-  * *Governing Equation:* $$y = x\tan(\theta) - \frac{g x^2}{2 v^2 \cos^2(\theta)}$$
-
-* **Kinematics Analysis on Orbits (Orbital Mechanics)**
-  * Simulate particle physics on an elliptical orbit (e.g., Earth-Sun gravitational system).
-  * Real-time vector visualization of Velocity ($\mathbf{v}$) and Acceleration ($\mathbf{a}$) using calculus derivations.
-  * *Parametric Equations:* $$x = cos(\omega t), \quad y = sin(\omega t)$$
-
-* **Numerical Analysis & Algorithms**
-  * **Numerical Integration:** Implemented Riemann Sum (incorporating both **Midpoint Rule** and **Trapezoidal Rule**) to approximate definite integrals for non-linear functions ($f(x) = x\sin^2(x)$).
-  * **Recursive Algorithms:** Developed a recursive tree structure for **Fibonacci Sequence** generation and optimized its base-case boundary conditions through rigorous debugging.
-
-* **Scientific Visualization**
-  * High-quality, publication-ready plots (300+ DPI) generated using Matplotlib with precise grids, legends, and vector annotations.
+The purpose of this repository is to practice applying Python to solve engineering and physics problems. The projects include projectile motion simulation, orbital motion visualization, numerical integration, and recursive algorithms.
 
 ---
 
-## 🛠️ Skills & Tech Stack
+## Projects
 
-* **Language:** Python
-* **Libraries:** NumPy, Matplotlib
-* **Core Concepts:** Physics Modeling, Kinematics, Numerical Simulation, Calculus Approximations, Vector Derivations, Algorithm Debugging
+### Projectile Motion Simulation
+
+- Simulate projectile trajectories under different launch angles (15°, 30°, 45°, 60°, 75°).
+- Compare the influence of launch angle on the trajectory and landing distance.
+- Visualize launch and landing points using Matplotlib.
+
+Governing equation:
+
+$$
+y=x\tan(\theta)-\frac{gx^2}{2v^2\cos^2(\theta)}
+$$
 
 ---
 
-## 🖼️ Preview
+### Kinematics of Elliptical Motion
 
-## Projectile Motion
+- Simulate motion along an elliptical trajectory.
+- Visualize velocity and acceleration vectors.
+- Practice parametric equations and vector representation.
 
-Comparison of projectile trajectories at different launch angles.
+Parametric equations:
+
+$$
+x=\cos(\omega t),\qquad
+y=\sin(\omega t)
+$$
+
+---
+
+### Numerical Integration
+
+- Approximate definite integrals using numerical methods.
+- Implement the Midpoint Rule and Trapezoidal Rule.
+- Compare numerical results with analytical solutions.
+
+Example function:
+
+$$
+f(x)=x\sin^2(x)
+$$
+
+---
+
+### Recursive Algorithm Practice
+
+- Implement the Fibonacci sequence using recursion.
+- Understand recursive function design and stopping conditions.
+
+---
+
+## Skills
+
+- Python
+- NumPy
+- Matplotlib
+- Numerical Computing
+- Physics Simulation
+- Scientific Visualization
+
+---
+
+## Preview
+
+### Projectile Motion
+
+Comparison of projectile trajectories under different launch angles.
 
 ![Projectile Motion](projectile_motion.png)
 
 ---
 
-## Kinematics Ellipse
+### Kinematics of Elliptical Motion
 
-Visualization of kinematics ellipse generated using parametric equations.
+Visualization of particle motion on an elliptical trajectory.
 
 ![Kinematics Ellipse](kinematics_ellipse.png)
+
+---
+
+## Future Improvements
+
+- Add user-adjustable simulation parameters.
+- Improve visualization with animations.
+- Organize the projects into independent Python modules.
