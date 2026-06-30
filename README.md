@@ -33,16 +33,16 @@ This repository focuses on scientific computing and physics modeling using Pytho
 
 ## 🖼️ Preview
 
-<p align="center">
-  <img src="./path_to_your_images/projectile_motion.png" width="45%" alt="Projectile Motion Simulation" />
-  <img src="./path_to_your_images/elliptical_orbit.png" width="45%" alt="Kinematics Analysis on Elliptical Orbit" />
-</p>
+## Projectile Motion
+
+Comparison of projectile trajectories at different launch angles.
+
+![Projectile Motion](projectile_motion.png)
 
 ---
 
-## 🚀 Getting Started
+## Kinematics Ellipse
 
-### Prerequisites
-Make sure you have Python installed, along with the required dependencies:
-```bash
-pip install numpy matplotlib
+Visualization of kinematics ellipse generated using parametric equations.
+
+![Kinematics Ellipse](kinematics_ellipse.png)
